@@ -1,0 +1,65 @@
+@charset 'utf-8';
+.page-nav {
+  border-bottom: 1px solid #666;
+}
+#allshop .nav-a {
+  visibility: visible;
+}
+#allshop .slider-nav {
+  background-color: #fff;
+  border: 1px solid #ff6700;
+  display: none;
+}
+#allshop .slider-nav a {
+  color: #000;
+}
+#allshop .slider-nav a i {
+  color: #666;
+}
+#allshop:hover .slider-nav {
+  display: block;
+}
+.pro_nav {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+}
+.pro_nav .xm11 {
+  float: left;
+  font-size: 12px;
+  color: #666;
+}
+.pro_nav .xm11 span {
+  margin-right: 5px;
+  font-size: 24px;
+  line-height: 80px;
+}
+.pro_nav .xm11 a {
+  color: #666;
+  margin: 0 5px;
+}
+.pro_nav .xm11 a:hover {
+  color: #ff6700;
+}
+.pro_nav .buy {
+  font-size: 16px;
+  color: #e0e0e0;
+  float: right;
+}
+.pro_nav .buy a {
+  line-height: 80px;
+  color: #000;
+  margin: 0 10px;
+}
+.pro_nav .buy a:hover {
+  color: #ff6700;
+}
+.pro_nav .buy .btn {
+  width: 100px;
+  line-height: 25px;
+  font-size: 14px;
+  outline: none;
+  background-color: #ff6700;
+  color: #fff;
+  border-radius: 0;
+}
